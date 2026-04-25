@@ -1,0 +1,173 @@
+{
+  "common": {
+    "platform": "Support-course platform",
+    "logout": "Logout",
+    "comingSoon": "Coming soon",
+    "learnMore": "Learn more",
+    "backHome": "Back to home"
+  },
+  "roles": {
+    "student": "Student",
+    "teacher": "Teacher",
+    "admin": "Admin"
+  },
+  "nav": {
+    "home": "Home",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "tutors": "Tutors",
+    "planning": "Planning",
+    "messages": "Messages",
+    "wallet": "Wallet",
+    "privateSessions": "Private sessions",
+    "notifications": "Notifications",
+    "myCourses": "My courses",
+    "adminTeachers": "Teacher management",
+    "studentsFollowup": "Students follow-up",
+    "reports": "Reports",
+    "comingSoon": "Coming soon"
+  },
+  "pages": {
+    "dashboard": "Dashboard overview",
+    "courses": "Course catalog",
+    "courseDetails": "Course details",
+    "tutors": "Tutor directory",
+    "tutorDetails": "Tutor details",
+    "planning": "Weekly planning",
+    "messages": "Support follow-up"
+  },
+  "landing": {
+    "eyebrow": "Angular front platform",
+    "title": "Online support courses with real follow-up, role-based access, and measurable progress.",
+    "description": "A front-end platform for students, teachers, and admins with planning, detailed course pages, tutor profiles, and multilingual support.",
+    "startDemo": "Start demo",
+    "platformSnapshot": "Platform snapshot",
+    "attendance": "today attendance across active cohorts",
+    "metrics": {
+      "students": "students supported every month",
+      "tutors": "expert tutors across tracks",
+      "completion": "lesson completion rate"
+    },
+    "features": {
+      "live": "Live support classes with replay and structured remediation.",
+      "progress": "Progress dashboards adapted to each role.",
+      "parent": "Follow-up notes, alerts, and operational visibility."
+    }
+  },
+  "login": {
+    "eyebrow": "Demo authentication",
+    "title": "Sign in and test each role interface.",
+    "description": "This authentication is fake for the frontend stage. It will be replaced by the backend later.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Enter platform",
+    "invalid": "Incorrect email or password.",
+    "demoAccounts": "Demo accounts",
+    "chooseAccount": "Use one of the test accounts",
+    "fill": "Fill form"
+  },
+  "dashboard": {
+    "connected": "Connected workspace",
+    "welcome": "Welcome",
+    "hero": {
+      "student": "Your student dashboard focuses on next sessions, learning progress, and homework follow-up.",
+      "teacher": "Your teacher dashboard focuses on classes, homework correction, and at-risk students.",
+      "admin": "Your admin dashboard focuses on operations, tutor supervision, and global activity."
+    },
+    "student": {
+      "progress": "course completion",
+      "nextSessions": "upcoming sessions",
+      "homework": "homework to finish"
+    },
+    "teacher": {
+      "todayClasses": "classes today",
+      "pendingHomework": "pending homework review",
+      "alertStudents": "students needing intervention"
+    },
+    "admin": {
+      "activeCohorts": "active cohorts",
+      "tutors": "active tutors",
+      "attendance": "weekly attendance"
+    },
+    "panels": {
+      "timeline": "Today timeline",
+      "shortcuts": "Quick actions"
+    },
+    "timeline": {
+      "math": "Mathematics reinforcement",
+      "english": "English speaking lab",
+      "algorithms": "Algorithms workshop"
+    }
+  },
+  "courseDetails": {
+    "nextSession": "Next session",
+    "teacher": "Teacher",
+    "outcomes": "Learning outcomes",
+    "modules": "Course modules"
+  },
+  "tutorDetails": {
+    "rating": "Rating",
+    "nextSlot": "Next available slot",
+    "bookSession": "Book from planning",
+    "about": "About the tutor",
+    "subjects": "Subjects taught",
+    "availability": "Weekly availability"
+  },
+  "planning": {
+    "mathRemediation": "Math remediation",
+    "frenchClinic": "French writing clinic",
+    "homeworkClub": "Primary homework club",
+    "physicsIntensive": "Physics intensive",
+    "englishLab": "English speaking lab",
+    "algorithmsWorkshop": "Algorithms workshop",
+    "groupSecondary": "3rd secondary",
+    "groupLetters": "Bac letters",
+    "groupPrimary": "Primary cohort A",
+    "groupScience": "Bac science",
+    "groupIntermediate": "Intermediate teens",
+    "groupBridge": "University bridge"
+  },
+  "messages": {
+    "followupNotes": "Recent follow-up notes",
+    "templates": "Parent communication templates",
+    "templateWeekly": "Weekly progress summary",
+    "templateMissed": "Missed session alert",
+    "templateHomework": "Homework intervention recommendation",
+    "templateSchedule": "Tutor schedule confirmation",
+    "noteAmina": "Improved in algebra exercises but still needs more speed on timed quizzes.",
+    "noteYoussef": "Missed two assignments. Parent call recommended before next session.",
+    "noteSarra": "Strong progress in spoken English. Suggested move to advanced group next month."
+  },
+  "comingSoon": {
+    "title": "This section is planned for the next front milestone.",
+    "description": "The page exists now so the navigation and layouts stay coherent while the remaining modules are being built.",
+    "back": "Back to dashboard"
+  },
+  "errors": {
+    "backDashboard": "Back to dashboard",
+    "backHome": "Back to home",
+    "forbidden": {
+      "title": "You do not have permission to access this page.",
+      "description": "This route is reserved for another role or requires additional backend rules."
+    },
+    "server": {
+      "title": "A server error occurred.",
+      "description": "The frontend intercepted a backend-style failure and redirected here."
+    },
+    "notFound": {
+      "title": "Page not found.",
+      "description": "The route you requested does not exist in the current frontend."
+    }
+  },
+  "calendar": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}

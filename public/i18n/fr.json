@@ -1,0 +1,173 @@
+{
+  "common": {
+    "platform": "Plateforme de cours de soutien",
+    "logout": "Deconnexion",
+    "comingSoon": "Bientot disponible",
+    "learnMore": "En savoir plus",
+    "backHome": "Retour a l accueil"
+  },
+  "roles": {
+    "student": "Etudiant",
+    "teacher": "Professeur",
+    "admin": "Administrateur"
+  },
+  "nav": {
+    "home": "Accueil",
+    "login": "Connexion",
+    "register": "Inscription",
+    "dashboard": "Tableau de bord",
+    "courses": "Cours",
+    "tutors": "Professeurs",
+    "planning": "Planning",
+    "messages": "Messages",
+    "wallet": "Solde",
+    "privateSessions": "Sessions privees",
+    "notifications": "Notifications",
+    "myCourses": "Mes cours",
+    "adminTeachers": "Gestion professeurs",
+    "studentsFollowup": "Suivi etudiants",
+    "reports": "Rapports",
+    "comingSoon": "Bientot"
+  },
+  "pages": {
+    "dashboard": "Vue d ensemble",
+    "courses": "Catalogue des cours",
+    "courseDetails": "Details du cours",
+    "tutors": "Annuaire des professeurs",
+    "tutorDetails": "Details du professeur",
+    "planning": "Planning hebdomadaire",
+    "messages": "Suivi pedagogique"
+  },
+  "landing": {
+    "eyebrow": "Front Angular",
+    "title": "Des cours de soutien en ligne avec vrai suivi, acces par role et progression mesurable.",
+    "description": "Une plateforme front pour etudiants, professeurs et admins avec planning, pages detaillees, profils enseignants et support multilingue.",
+    "startDemo": "Lancer la demo",
+    "platformSnapshot": "Apercu plateforme",
+    "attendance": "presence du jour sur les cohortes actives",
+    "metrics": {
+      "students": "etudiants accompagnes chaque mois",
+      "tutors": "professeurs experts sur plusieurs filieres",
+      "completion": "taux de completion des seances"
+    },
+    "features": {
+      "live": "Cours de soutien en direct avec replay et remediation structuree.",
+      "progress": "Tableaux de bord adaptes a chaque role.",
+      "parent": "Notes de suivi, alertes et visibilite operationnelle."
+    }
+  },
+  "login": {
+    "eyebrow": "Authentification demo",
+    "title": "Connectez-vous et testez chaque interface par role.",
+    "description": "Cette authentification est fictive pour l etape front. Elle sera remplacee par le backend ensuite.",
+    "email": "Email",
+    "password": "Mot de passe",
+    "submit": "Entrer sur la plateforme",
+    "invalid": "Email ou mot de passe incorrect.",
+    "demoAccounts": "Comptes de test",
+    "chooseAccount": "Utilisez un des comptes de test",
+    "fill": "Remplir"
+  },
+  "dashboard": {
+    "connected": "Espace connecte",
+    "welcome": "Bienvenue",
+    "hero": {
+      "student": "Votre tableau de bord etudiant se concentre sur les prochaines seances, la progression et le suivi des devoirs.",
+      "teacher": "Votre tableau de bord professeur se concentre sur les classes, les corrections et les eleves en risque.",
+      "admin": "Votre tableau de bord admin se concentre sur l activite globale, les professeurs et le pilotage."
+    },
+    "student": {
+      "progress": "completion du parcours",
+      "nextSessions": "seances a venir",
+      "homework": "devoirs a terminer"
+    },
+    "teacher": {
+      "todayClasses": "classes aujourd hui",
+      "pendingHomework": "copies a corriger",
+      "alertStudents": "etudiants a surveiller"
+    },
+    "admin": {
+      "activeCohorts": "cohortes actives",
+      "tutors": "professeurs actifs",
+      "attendance": "presence hebdomadaire"
+    },
+    "panels": {
+      "timeline": "Planning du jour",
+      "shortcuts": "Actions rapides"
+    },
+    "timeline": {
+      "math": "Renforcement mathematiques",
+      "english": "Atelier oral anglais",
+      "algorithms": "Atelier algorithmique"
+    }
+  },
+  "courseDetails": {
+    "nextSession": "Prochaine seance",
+    "teacher": "Professeur",
+    "outcomes": "Objectifs pedagogiques",
+    "modules": "Modules du cours"
+  },
+  "tutorDetails": {
+    "rating": "Note",
+    "nextSlot": "Prochain creneau disponible",
+    "bookSession": "Reserver depuis le planning",
+    "about": "A propos du professeur",
+    "subjects": "Matieres enseignees",
+    "availability": "Disponibilite hebdomadaire"
+  },
+  "planning": {
+    "mathRemediation": "Remediation mathematiques",
+    "frenchClinic": "Clinique d ecriture francaise",
+    "homeworkClub": "Club devoirs primaire",
+    "physicsIntensive": "Physique intensive",
+    "englishLab": "Atelier oral anglais",
+    "algorithmsWorkshop": "Atelier algorithmique",
+    "groupSecondary": "3eme secondaire",
+    "groupLetters": "Bac lettres",
+    "groupPrimary": "Cohorte primaire A",
+    "groupScience": "Bac sciences",
+    "groupIntermediate": "Adolescents intermediaires",
+    "groupBridge": "Passerelle universitaire"
+  },
+  "messages": {
+    "followupNotes": "Dernieres notes de suivi",
+    "templates": "Modeles de communication parents",
+    "templateWeekly": "Resume hebdomadaire de progression",
+    "templateMissed": "Alerte seance manquee",
+    "templateHomework": "Recommandation intervention devoir",
+    "templateSchedule": "Confirmation planning professeur",
+    "noteAmina": "Amelioration en algebre mais besoin de plus de rapidite sur les quiz chronometres.",
+    "noteYoussef": "Deux devoirs manques. Appel parent recommande avant la prochaine seance.",
+    "noteSarra": "Tres bonne progression a l oral en anglais. Passage au niveau avance suggere le mois prochain."
+  },
+  "comingSoon": {
+    "title": "Cette section est prevue pour la prochaine etape front.",
+    "description": "La page existe deja pour garder une navigation coherente pendant la construction des modules restants.",
+    "back": "Retour au tableau de bord"
+  },
+  "errors": {
+    "backDashboard": "Retour au tableau de bord",
+    "backHome": "Retour a l accueil",
+    "forbidden": {
+      "title": "Vous n avez pas le droit d acceder a cette page.",
+      "description": "Cette route est reservee a un autre role ou necessite des regles backend supplementaires."
+    },
+    "server": {
+      "title": "Une erreur serveur est survenue.",
+      "description": "Le front a intercepte une erreur de type backend et vous a redirige ici."
+    },
+    "notFound": {
+      "title": "Page introuvable.",
+      "description": "La route demandee n existe pas dans le front actuel."
+    }
+  },
+  "calendar": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  }
+}

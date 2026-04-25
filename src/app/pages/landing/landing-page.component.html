@@ -1,0 +1,37 @@
+<main class="landing">
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">{{ 'landing.eyebrow' | t }}</span>
+      <h1>{{ 'landing.title' | t }}</h1>
+      <p>{{ 'landing.description' | t }}</p>
+
+      <div class="actions">
+        <a class="primary" routerLink="/login">{{ 'landing.startDemo' | t }}</a>
+        <a class="secondary" routerLink="/coming-soon">{{ 'common.learnMore' | t }}</a>
+      </div>
+
+      <div class="metric-grid">
+        @for (metric of metrics; track metric.labelKey) {
+          <article class="metric-card">
+            <strong>{{ metric.value }}</strong>
+            <span>{{ metric.labelKey | t }}</span>
+          </article>
+        }
+      </div>
+    </div>
+
+    <div class="hero-panel">
+      <span class="eyebrow">{{ 'landing.platformSnapshot' | t }}</span>
+      <div class="snapshot">
+        <strong>91%</strong>
+        <span>{{ 'landing.attendance' | t }}</span>
+      </div>
+
+      <div class="feature-list">
+        @for (feature of features; track feature) {
+          <div class="feature-item">{{ feature | t }}</div>
+        }
+      </div>
+    </div>
+  </section>
+</main>
